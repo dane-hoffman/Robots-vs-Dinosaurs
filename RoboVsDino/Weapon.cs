@@ -9,15 +9,15 @@ namespace RoboVsDino
     class Weapon
     {
         //member variables
-        public string type;
-        public int attackpower;
+        string type;
+        int attackpower;
 
 
         //contructor
-        public Weapon(string type, int attackpower)
+        public Weapon()
         {
-            type = "Laser Gun";
-            attackpower = 7;
+            type = "Axe";
+            attackpower = 4;
 
 
         }
@@ -25,7 +25,10 @@ namespace RoboVsDino
 
         //member methods
  
+        
+
 
 
     }
+
 }

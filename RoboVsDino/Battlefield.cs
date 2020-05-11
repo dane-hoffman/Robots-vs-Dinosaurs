@@ -9,8 +9,8 @@ namespace RoboVsDino
     class Battlefield
     {
         //member variables
-            //Variables to the battlefield???
-                //
+        //side? a vs b
+
 
 
         //contructor
@@ -18,9 +18,13 @@ namespace RoboVsDino
 
 
         //member methods
-            // method for battle 'line up'
+            // method for battle 'line up' ...ex.dinoOne vs robotOne
+                                         //or random vs random?
+                                         // 1 vs 1
+
+        
 
 
-
+             //fleet and herd instantiation???????????/
     }
 }
