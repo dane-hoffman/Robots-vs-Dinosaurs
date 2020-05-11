@@ -8,5 +8,18 @@ namespace RoboVsDino
 {
     class Battlefield
     {
+        //member variables
+
+
+
+        //contructor
+
+
+
+        //member methods
+
+
+
+
     }
 }

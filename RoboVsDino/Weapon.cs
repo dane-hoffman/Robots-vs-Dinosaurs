@@ -8,5 +8,23 @@ namespace RoboVsDino
 {
     class Weapon
     {
+        //member variables
+        public string type;
+        public int attackpower;
+
+
+        //contructor
+        public Weapon(string type, int attackpower)
+        {
+
+
+        }
+
+
+        //member methods
+
+
+
+
     }
 }

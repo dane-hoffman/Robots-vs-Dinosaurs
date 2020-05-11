@@ -8,5 +8,29 @@ namespace RoboVsDino
 {
     class Dinosaur
     {
+        //member variables
+        string type;
+        int health;
+        int energy;
+        int attackpower;
+
+
+
+        //contructor
+
+        public Dinosaur(string type, int health, int energy, int attackpower)
+        {
+
+
+
+        }
+
+
+        //member methods
+
+
+
     }
+
+
 }

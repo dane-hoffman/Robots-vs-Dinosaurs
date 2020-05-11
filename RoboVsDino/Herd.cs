@@ -8,5 +8,18 @@ namespace RoboVsDino
 {
     class Herd
     {
+
+        //member variables
+
+
+
+        //contructor
+
+
+
+        //member methods
+
+
+
     }
 }

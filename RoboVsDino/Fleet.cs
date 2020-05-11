@@ -8,5 +8,17 @@ namespace RoboVsDino
 {
     class Fleet
     {
+        //member variables
+
+
+
+        //contructor
+
+
+
+        //member methods
+
+
+
     }
 }
