@@ -12,13 +12,18 @@ namespace RoboVsDino
         string name;
         int health;
         int powerlevel;
-        Weapon weapon = new Weapon();  //need to add "Weapon" type class object as a member variable
+        Weapon weapon = new Weapon();
+
+
 
 
         //contructor
         public Robot(string name, int health, int powerlevel, Weapon weapon)
         {
-
+            name = "Tod";
+            health = 9;
+            powerlevel = 6;
+            Weapon weapon = new Weapon("Laser Gun", 7);
 
         }
 

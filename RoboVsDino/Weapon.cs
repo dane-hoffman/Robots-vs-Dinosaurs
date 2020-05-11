@@ -16,13 +16,14 @@ namespace RoboVsDino
         //contructor
         public Weapon(string type, int attackpower)
         {
+            type = "Laser Gun";
+            attackpower = 7;
 
 
         }
 
 
         //member methods
-
 
 
 

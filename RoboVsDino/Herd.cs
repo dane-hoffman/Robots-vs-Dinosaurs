@@ -10,7 +10,9 @@ namespace RoboVsDino
     {
 
         //member variables
-
+        Dinosaur dinoOne = new Dinosaur(//string type, int health, int energy, int attackpower)
+        Dinosaur dinTwo = new Dinosaur(//string type, int health, int energy, int attackpower)
+        Dinosaur dinoThree = new Dinosaur(//string type, int health, int energy, int attackpower)
 
 
         //contructor
