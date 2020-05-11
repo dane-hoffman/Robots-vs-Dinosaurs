@@ -9,7 +9,8 @@ namespace RoboVsDino
     class Battlefield
     {
         //member variables
-
+            //Variables to the battlefield???
+                //
 
 
         //contructor
@@ -17,7 +18,7 @@ namespace RoboVsDino
 
 
         //member methods
-
+            // method for battle 'line up'
 
 
 

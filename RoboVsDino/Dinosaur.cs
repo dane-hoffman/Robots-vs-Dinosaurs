@@ -18,12 +18,12 @@ namespace RoboVsDino
 
         //contructor
 
-        public Dinosaur(string type, int health, int energy, int attackpower)
+        public Dinosaur(string dinoType, int health, int energy, int attackpower)
         {
-            type = "T-Rex";
-            health = 9;
-            energy = 6;
-            attackpower = 7;
+            type = dinoType;
+            this.health = health;
+            this.energy = energy;
+            this.attackpower = attackpower;
 
 
 

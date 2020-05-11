@@ -17,7 +17,15 @@ namespace RoboVsDino
 
 
         //contructor
+        public Fleet()
+        {
+            robotOne = new Robot("Tod", 9, 6);
+            robotTwo = new Robot("Fred", 9, 6);
+            robotThree = new Robot("Destructron 3000", 9, 6);
+            
 
+
+        }
          
 
         //member methods

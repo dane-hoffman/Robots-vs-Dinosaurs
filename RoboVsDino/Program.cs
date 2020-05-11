@@ -10,12 +10,13 @@ namespace RoboVsDino
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Click Enter to run a battle scenario of Robots vs Dinosaurs!");       
+            Console.WriteLine("Click Enter to run a battle scenario of Robots vs Dinosaurs!");
 
 
+            
 
 
-
+            Console.ReadLine();
         }
     }
 }
