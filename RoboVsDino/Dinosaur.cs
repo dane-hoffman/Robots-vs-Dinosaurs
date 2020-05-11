@@ -20,6 +20,10 @@ namespace RoboVsDino
 
         public Dinosaur(string type, int health, int energy, int attackpower)
         {
+            type = "T-Rex";
+            health = 9;
+            energy = 6;
+            attackpower = 7;
 
 
 
@@ -27,7 +31,9 @@ namespace RoboVsDino
 
 
         //member methods
+        
 
+        //creat method for decreasing Health based on 
 
 
     }

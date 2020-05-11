@@ -12,7 +12,7 @@ namespace RoboVsDino
         string name;
         int health;
         int powerlevel;
-        Weapon weapon = new Weapon();
+        Weapon weapon = new Weapon("Laser Gun", 7);
 
 
 
@@ -23,7 +23,6 @@ namespace RoboVsDino
             name = "Tod";
             health = 9;
             powerlevel = 6;
-            Weapon weapon = new Weapon("Laser Gun", 7);
 
         }
 
