@@ -10,9 +10,10 @@ namespace RoboVsDino
     class Fleet
     {
         //member variables
-        Robot robotOne = new Robot("Tod", 9, 6, );
-        Robot robotTwo = new Robot(//string name, int health, int powerlevel, Weapon weapon)
-        Robot robotThree = new Robot(//string name, int health, int powerlevel, Weapon weapon)
+        public Robot robotOne;
+        public Robot robotTwo;
+        public Robot robotThree;
+
 
 
         //contructor
