@@ -37,8 +37,13 @@ namespace RoboVsDino
                 if (herd.dinosaurs[0].health <= 0)
                 {
                     herd.dinosaurs.RemoveAt(0);
+                    if(herd.dinosaurs.Count == 0)
+                    {
+                        break;
+                    }
 
                 }
+
 
 
                 herd.dinosaurs[0].DinoAttack(fleet.robots[0]);
@@ -53,14 +58,14 @@ namespace RoboVsDino
 
             if(fleet.robots.Count > 0)
             {
-                Console.WriteLine("The Robots have one the battle!");
+                Console.WriteLine("The Robots are victorious!!!");
 
             }
 
             else
             {
 
-                Console.WriteLine("The Dinosaurs have one the battle!");
+                Console.WriteLine("The Dinosaurs are victorious!");
 
             }
 
