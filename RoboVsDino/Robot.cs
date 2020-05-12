@@ -12,26 +12,27 @@ namespace RoboVsDino
         string name;
         int health;
         int powerlevel;
-        Weapon weapon = new Weapon();
-       
-        
+        Weapon weapon;
+
+
 
 
 
 
         //contructor
-        public Robot(string robotName, int health, int powerlevel)
+        public Robot(string robotName, int health, int powerlevel, Weapon weapon)
         {
             name = robotName;
             this.health = health;
             this.powerlevel = powerlevel;
-            Weapon weapon = this.weapon;
+            this.weapon = new Weapon();
+
 
         }
 
 
         //member methods
-            
+
 
 
     }
