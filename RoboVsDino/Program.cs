@@ -14,8 +14,8 @@ namespace RoboVsDino
 
 
             Battlefield battlefield = new Battlefield();
-            
 
+            battlefield.RunBattle();
 
 
             Console.ReadLine();

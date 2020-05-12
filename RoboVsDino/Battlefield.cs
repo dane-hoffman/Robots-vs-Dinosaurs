@@ -27,24 +27,42 @@ namespace RoboVsDino
 
         //member methods
 
+
+            //use turn based 'combat' ex. dino vs robo, then robo vs dino
+            //if 'beingAttacked'. health reaches 0, then remove from 'group' List
         public void RunBattle()
         {
 
-            //robot to attack dino
-
-            fleet.robots[0].RobotAttack(herd.dinosaurs[0]);
-            if(herd.dinosaurs[0].health <= 0)
+            while (fleet.robots.Count > 0 && herd.dinosaurs.Count > 0)
             {
-                herd.dinosaurs.RemoveAt(0);
+                fleet.robots[0].RobotAttack(herd.dinosaurs[0]);
+                if (herd.dinosaurs[0].health <= 0)
+                {
+                    herd.dinosaurs.RemoveAt(0);
+
+                }
+
+
+                herd.dinosaurs[0].DinoAttack(fleet.robots[0]);
+                if (fleet.robots[0].health <= 0)
+                {
+                    fleet.robots.RemoveAt(0);
+
+                }
+
 
             }
 
-            // dino to attack robot
-
-            herd.dinosaurs[0].DinoAttack(fleet.robots[0]);
-            if(fleet.robots[0].health <= 0)
+            if(fleet.robots.Count > 0)
             {
-                fleet.robots.RemoveAt(0);
+                Console.WriteLine("The Robots have one the battle!");
+
+            }
+
+            else
+            {
+
+                Console.WriteLine("The Dinosaurs have one the battle!");
 
             }
 
