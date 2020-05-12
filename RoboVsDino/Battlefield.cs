@@ -11,7 +11,6 @@ namespace RoboVsDino
         //member variables
         public Fleet robotFleet;
         public Herd dinoHerd;
-        public Weapon robotWeapon;
 
 
 

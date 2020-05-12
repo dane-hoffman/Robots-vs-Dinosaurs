@@ -33,6 +33,13 @@ namespace RoboVsDino
 
         //member methods
 
+        public void RobotAttack(Dinosaur dinoBeingAttacked)
+        {
+            dinoBeingAttacked.health -= weapon.attackpower;
+
+
+        }
+
 
 
     }
