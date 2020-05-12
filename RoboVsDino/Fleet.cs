@@ -11,21 +11,22 @@ namespace RoboVsDino
     class Fleet
     {
         //member variables
-        public Robot robotOne;
-        public Robot robotTwo;
-        public Robot robotThree;
-        public double fleetHealth;
-        
-
+        public List<Robot> robots;
 
 
         //contructor
         public Fleet()
         {
 
-            robotOne = new Robot("Tod", 9, 6);
-            robotTwo = new Robot("Fred", 9, 6);
-            robotThree = new Robot("Destructron 3000", 9, 6);
+            robots = new List<Robot>();
+
+            Robot robotOne = new Robot("Tod");
+            Robot robotTwo = new Robot("Fred");
+            Robot robotThree = new Robot("Destructron 3000");
+
+            robots.Add(robotOne);
+            robots.Add(robotTwo);
+            robots.Add(robotThree);
 
             
         }

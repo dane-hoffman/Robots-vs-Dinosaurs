@@ -30,7 +30,18 @@ namespace RoboVsDino
         public void RunBattle()
         {
 
+            //robot to attack dino
 
+            robotFleet.robotOne.RobotAttack(dinoHerd.dinoOne);
+            if(dinoHerd.dinoOne.health <= 0)
+            {
+
+
+            }
+
+            // dino to attack robot
+
+            dinoHerd.dinoOne.DinoAttack(robotFleet.robotOne);
         }
 
 

@@ -10,18 +10,23 @@ namespace RoboVsDino
     {
 
         //member variables
-        public Dinosaur dinoOne;
-        public Dinosaur dinoTwo;
-        public Dinosaur dinoThree;
+        public List<Dinosaur> dinosaurs;
 
 
         //contructor
         public Herd()
         {
 
-            dinoOne = new Dinosaur("T-Rex", 9, 6, 7);
-            dinoTwo = new Dinosaur("John", 9, 9, 5);
-            dinoThree = new Dinosaur("Arcteryx", 9, 6, 2);
+            dinosaurs = new List<Dinosaur>();
+
+
+            Dinosaur dinoOne = new Dinosaur("T-Rex");
+            Dinosaur dinoTwo = new Dinosaur("John");
+            Dinosaur dinoThree = new Dinosaur("Arcteryx");
+
+            dinosaurs.Add(dinoOne);
+            dinosaurs.Add(dinoTwo);
+            dinosaurs.Add(dinoThree);
 
 
         }

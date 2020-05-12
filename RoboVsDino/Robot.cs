@@ -20,11 +20,11 @@ namespace RoboVsDino
 
 
         //contructor
-        public Robot(string robotName, double health, double powerlevel)
+        public Robot(string robotName)
         {
             name = robotName;
-            this.health = health;
-            this.powerlevel = powerlevel;
+            health = 10;
+            powerlevel = 5;
             weapon = new Weapon();
 
 
