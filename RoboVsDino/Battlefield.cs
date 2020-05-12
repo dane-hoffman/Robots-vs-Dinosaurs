@@ -9,8 +9,8 @@ namespace RoboVsDino
     class Battlefield
     {
         //member variables
-        public Fleet robotFleet;
-        public Herd dinoHerd;
+        public Fleet fleet;
+        public Herd herd;
 
 
 
@@ -19,8 +19,8 @@ namespace RoboVsDino
         //contructor
         public Battlefield()
         {
-            robotFleet = new Fleet();
-            dinoHerd = new Herd();
+            fleet = new Fleet();
+            herd = new Herd();
 
         }
 
@@ -32,16 +32,23 @@ namespace RoboVsDino
 
             //robot to attack dino
 
-            robotFleet.robotOne.RobotAttack(dinoHerd.dinoOne);
-            if(dinoHerd.dinoOne.health <= 0)
+            fleet.robots[0].RobotAttack(herd.dinosaurs[0]);
+            if(herd.dinosaurs[0].health <= 0)
             {
-
+                herd.dinosaurs.RemoveAt(0);
 
             }
 
             // dino to attack robot
 
-            dinoHerd.dinoOne.DinoAttack(robotFleet.robotOne);
+            herd.dinosaurs[0].DinoAttack(fleet.robots[0]);
+            if(fleet.robots[0].health <= 0)
+            {
+                fleet.robots.RemoveAt(0);
+
+            }
+
+
         }
 
 
