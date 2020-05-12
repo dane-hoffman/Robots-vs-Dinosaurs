@@ -21,7 +21,7 @@ namespace RoboVsDino
 
 
             Dinosaur dinoOne = new Dinosaur("T-Rex");
-            Dinosaur dinoTwo = new Dinosaur("John");
+            Dinosaur dinoTwo = new Dinosaur("Carl");
             Dinosaur dinoThree = new Dinosaur("Arcteryx");
 
             dinosaurs.Add(dinoOne);
@@ -34,7 +34,6 @@ namespace RoboVsDino
 
         //member methods
 
-        // GoToBattle Method
 
     }
 }

@@ -28,8 +28,6 @@ namespace RoboVsDino
         //member methods
 
 
-            //use turn based 'combat' ex. dino vs robo, then robo vs dino
-            //if 'beingAttacked'. health reaches 0, then remove from 'group' List
         public void RunBattle()
         {
 
