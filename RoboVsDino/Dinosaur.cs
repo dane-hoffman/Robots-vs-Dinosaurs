@@ -35,7 +35,7 @@ namespace RoboVsDino
         public void DinoAttack(Robot robotBeingAttacked)
         {
             robotBeingAttacked.health -= attackpower;
-            Console.WriteLine("The Robot " + robotBeingAttacked.name + " just took damage from a robot\n");
+            Console.WriteLine("The Robot " + robotBeingAttacked.name + " just took damage from a dinosaur\n");
 
         }
         //creat method for decreasing Health based on 
