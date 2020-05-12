@@ -9,10 +9,10 @@ namespace RoboVsDino
     class Robot
     {
         //member variables
-        string name;
-        int health;
-        int powerlevel;
-        Weapon weapon;
+        public string name;
+        public int health;
+        public int powerlevel;
+        public Weapon weapon;
 
 
 

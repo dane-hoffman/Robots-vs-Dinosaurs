@@ -9,7 +9,7 @@ namespace RoboVsDino
     class Weapon
     {
         //member variables
-        string type;
+        public string type;
         int attackpower;
 
 
