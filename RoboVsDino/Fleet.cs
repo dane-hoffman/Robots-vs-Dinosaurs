@@ -10,22 +10,24 @@ namespace RoboVsDino
     class Fleet
     {
         //member variables
-        Robot robotOne;
-        Robot robotTwo;
-        Robot robotThree;
+        public Robot robotOne;
+        public Robot robotTwo;
+        public Robot robotThree;
         
 
 
 
         //contructor
-        public Fleet(Robot robotOne, Robot robotTwo, Robot robotThree)
+        public Fleet()
         {
 
             robotOne = new Robot("Tod", 9, 6);
-            robotTwo = new Robot("Fred", 9, 6, this.weapon);
-            robotThree = new Robot("Destructron 3000", 9, 6,this.weapon);
+            robotTwo = new Robot("Fred", 9, 6);
+            robotThree = new Robot("Destructron 3000", 9, 6);
             
         }
+
+
          
 
         //member methods

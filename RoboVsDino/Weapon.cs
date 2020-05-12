@@ -10,7 +10,7 @@ namespace RoboVsDino
     {
         //member variables
         public string type;
-        int attackpower;
+        public int attackpower;
 
 
         //contructor

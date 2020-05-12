@@ -21,7 +21,6 @@ namespace RoboVsDino
         public Battlefield()
         {
             robotFleet = new Fleet();
-            robotWeapon = new Weapon();
             dinoHerd = new Herd();
 
         }

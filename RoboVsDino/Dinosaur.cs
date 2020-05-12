@@ -9,10 +9,10 @@ namespace RoboVsDino
     class Dinosaur
     {
         //member variables
-        string type;
-        int health;
-        int energy;
-        int attackpower;
+        public string type;
+        public int health;
+        public int energy;
+        public int attackpower;
 
 
 

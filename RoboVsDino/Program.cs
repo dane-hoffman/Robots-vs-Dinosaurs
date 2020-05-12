@@ -13,6 +13,7 @@ namespace RoboVsDino
             Console.WriteLine("Click Enter to run a battle scenario of Robots vs Dinosaurs!");
 
 
+            Battlefield battlefield = new Battlefield();
             
 
 
