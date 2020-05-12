@@ -28,7 +28,7 @@ namespace RoboVsDino
         }
 
 
-         
+         public int FleetHealth
 
         //member methods
 

@@ -10,8 +10,8 @@ namespace RoboVsDino
     {
         //member variables
         public string name;
-        public int health;
-        public int powerlevel;
+        public double health;
+        public double powerlevel;
         public Weapon weapon;
 
 
@@ -20,7 +20,7 @@ namespace RoboVsDino
 
 
         //contructor
-        public Robot(string robotName, int health, int powerlevel)
+        public Robot(string robotName, double health, double powerlevel)
         {
             name = robotName;
             this.health = health;

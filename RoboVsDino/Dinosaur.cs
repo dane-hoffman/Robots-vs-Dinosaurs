@@ -10,15 +10,15 @@ namespace RoboVsDino
     {
         //member variables
         public string type;
-        public int health;
-        public int energy;
-        public int attackpower;
+        public double health;
+        public double energy;
+        public double attackpower;
 
 
 
         //contructor
 
-        public Dinosaur(string dinoType, int health, int energy, int attackpower)
+        public Dinosaur(string dinoType, double health, double energy, double attackpower)
         {
             type = dinoType;
             this.health = health;

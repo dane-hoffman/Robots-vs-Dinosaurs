@@ -28,16 +28,16 @@ namespace RoboVsDino
 
         //member methods
 
+        public void RunBattle()
+        {
+
+
+        }
 
 
 
 
-
-        
-            // method for battle 'line up' ...ex.dinoOne vs robotOne
-                                         //or random vs random?
-                                         // 1 vs 1
-
+ 
         
 
 
