@@ -20,9 +20,9 @@ namespace RoboVsDino
 
             robots = new List<Robot>();
 
-            Robot robotOne = new Robot("Tod");
-            Robot robotTwo = new Robot("Fred");
-            Robot robotThree = new Robot("Destructron 3000");
+            Robot robotOne = new Robot("Tod", 9);
+            Robot robotTwo = new Robot("Fred", 12);
+            Robot robotThree = new Robot("Destructron 3000",8);
 
             robots.Add(robotOne);
             robots.Add(robotTwo);

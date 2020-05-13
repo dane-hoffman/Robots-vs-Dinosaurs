@@ -13,20 +13,20 @@ namespace RoboVsDino
         public double health;
         public double powerlevel;
         public Weapon weapon;
-
+        public double attackPower;
 
 
 
 
 
         //contructor
-        public Robot(string robotName)
+        public Robot(string robotName, double health)
         {
             name = robotName;
-            health = 10;
+            this.health = health;
             powerlevel = 5;
             weapon = new Weapon();
-
+            attackPower = weapon.attackpower + powerlevel - health;
 
         }
 
@@ -35,8 +35,9 @@ namespace RoboVsDino
 
         public void RobotAttack(Dinosaur dinoBeingAttacked)
         {
-            dinoBeingAttacked.health -= weapon.attackpower;
-            Console.WriteLine("The Dinosaur " + dinoBeingAttacked.type + " just took" + weapon.attackpower + " damage from a robot\n");
+            dinoBeingAttacked.health -= attackPower;
+
+            Console.WriteLine("The Dinosaur " + dinoBeingAttacked.type + " just took " + attackpower + " damage from a robot\n");
 
         }
 

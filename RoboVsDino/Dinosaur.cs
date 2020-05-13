@@ -25,8 +25,6 @@ namespace RoboVsDino
             energy = 5;
             attackpower = 2;
 
-
-
         }
 
 
